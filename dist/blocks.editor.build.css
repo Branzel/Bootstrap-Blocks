@@ -1,0 +1,171 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-branzel-block-bootstrap-slide .toggleHeader {
+  width: 100%;
+  line-height: 1.5em;
+  padding: 0.7em 1em;
+  font-weight: bold;
+  border: 1px solid black; }
+
+.wp-block-branzel-block-bootstrap-slide .toggleContent {
+  padding: 1em;
+  background-position: center;
+  background-size: cover; }
+  .wp-block-branzel-block-bootstrap-slide .toggleContent .button.button-large {
+    display: block;
+    margin: 0.5em auto 1em; }
+  .wp-block-branzel-block-bootstrap-slide .toggleContent h1, .wp-block-branzel-block-bootstrap-slide .toggleContent p, .wp-block-branzel-block-bootstrap-slide .toggleContent a.btn {
+    margin-left: 51; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * ----------------------------------------------------------------------------
+ * Editor CSS
+ * ----------------------------------------------------------------------------
+ */
+.edit-post-visual-editor .editor-inner-blocks {
+  width: 100%; }
+
+.edit-post-visual-editor .editor-block-list__block,
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 576px) {
+  .edit-post-visual-editor .editor-block-list__block,
+  .container {
+    max-width: 540px; } }
+
+@media (min-width: 768px) {
+  .edit-post-visual-editor .editor-block-list__block,
+  .container {
+    max-width: 720px; } }
+
+@media (min-width: 992px) {
+  .edit-post-visual-editor .editor-block-list__block,
+  .container {
+    max-width: 960px; } }
+
+@media (min-width: 1200px) {
+  .edit-post-visual-editor .editor-block-list__block,
+  .container {
+    max-width: 1140px; } }
+
+.wp-block-branzel-block-bootstrap-row > div > div,
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+  .wp-block-branzel-block-bootstrap-row > div > div div.editor-block-list__block .editor-block-list__block-edit,
+  .row div.editor-block-list__block .editor-block-list__block-edit {
+    max-width: 100%;
+    margin: 0 auto; }
+
+.container, .row {
+  min-height: 50px; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * ----------------------------------------------------------------------------
+ * Editor CSS
+ * ----------------------------------------------------------------------------
+ */
+.wp-block-branzel-block-bootstrap-row > div > div > div.editor-block-list__block {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%; }
+
+.wp-block-branzel-block-profile ul,
+.wp-block-branzel-block-profile li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.wp-block-branzel-block-profile .organic-profile-image {
+  -ms-flex-align: center;
+      align-items: center; }
+
+.wp-block-branzel-block-profile .organic-profile-image button {
+  margin: 85px auto 0;
+  display: block; }
+
+.wp-block-branzel-block-profile .organic-profile-image button.image-button {
+  line-height: 0;
+  padding: 0px; }
+
+.wp-block-branzel-block-profile .organic-profile-image button.image-button img {
+  opacity: 0;
+  margin: 0; }
+
+.wp-block-branzel-block-profile .organic-profile-content {
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.wp-block-branzel-block-profile .organic-profile-social {
+  margin-top: 12px; }
+
+.wp-block-branzel-block-profile .organic-profile-social .social-link {
+  color: rgba(0, 0, 0, 0.24);
+  padding: 6px 12px;
+  border-left: 1px solid rgba(0, 0, 0, 0.12); }
+
+.wp-block-branzel-block-profile .organic-profile-social .social-link:hover {
+  color: black; }
+
+.wp-block-branzel-block-profile .organic-profile-social .social-link:first-child {
+  border: none; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * ----------------------------------------------------------------------------
+ * Editor CSS
+ * ----------------------------------------------------------------------------
+ */

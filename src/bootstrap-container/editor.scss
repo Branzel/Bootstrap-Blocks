@@ -1,0 +1,72 @@
+/**
+ * ----------------------------------------------------------------------------
+ * Editor CSS
+ * ----------------------------------------------------------------------------
+ */
+ 
+// Bootstrap Container
+.edit-post-visual-editor {
+	.editor-inner-blocks {
+		width:100%;
+	}
+}
+
+.edit-post-visual-editor .editor-block-list__block,
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	
+	
+}
+
+@media (min-width: 576px) {
+	.edit-post-visual-editor .editor-block-list__block,
+	.container {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.edit-post-visual-editor .editor-block-list__block,
+	.container {
+		max-width: 720px; 
+	} 
+}
+
+@media (min-width: 992px) {
+	.edit-post-visual-editor .editor-block-list__block,
+	.container {
+		max-width: 960px;
+	} 
+}
+
+@media (min-width: 1200px) {
+	.edit-post-visual-editor .editor-block-list__block,
+	.container {
+		max-width: 1140px;
+	} 
+}
+
+
+.wp-block-branzel-block-bootstrap-row > div > div,
+.row {
+	// Bootstrap row
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	
+	div.editor-block-list__block .editor-block-list__block-edit {
+		max-width:100%;
+		margin:0 auto;
+	}
+}
+
+.container, .row {
+	min-height:50px;
+}

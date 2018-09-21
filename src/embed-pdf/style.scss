@@ -1,0 +1,17 @@
+/**
+ * ----------------------------------------------------------------------------
+ * Frontend CSS
+ * ----------------------------------------------------------------------------
+ */
+.wp-block-branzel-embedpdf {
+	max-width:100%;
+	border:1px solid black;
+	overflow: auto;
+	zoom: 1;
+	
+	canvas {
+		display: block;
+	}
+}
+
+

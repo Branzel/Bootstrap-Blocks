@@ -1,0 +1,19 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-branzel-block-bootstrap-slide.carousel-item {
+	background-position:center;
+	background-size:cover;
+	
+	.carousel-caption {
+		padding:1em;
+		bottom:40px;
+		
+		.display-4 {
+			text-align:left;
+		}
+	}
+}

@@ -1,0 +1,147 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-branzel-block-bootstrap-slide.carousel-item {
+  background-position: center;
+  background-size: cover; }
+  .wp-block-branzel-block-bootstrap-slide.carousel-item .carousel-caption {
+    padding: 1em;
+    bottom: 40px; }
+    .wp-block-branzel-block-bootstrap-slide.carousel-item .carousel-caption .display-4 {
+      text-align: left; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * ----------------------------------------------------------------------------
+ * Frontend CSS
+ * ----------------------------------------------------------------------------
+ */
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * ----------------------------------------------------------------------------
+ * Frontend CSS
+ * ----------------------------------------------------------------------------
+ */
+.wp-block-branzel-block-profile ul,
+.wp-block-branzel-block-profile li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.wp-block-branzel-block-profile {
+  background-color: #ffffff;
+  margin: 12px 0px; }
+
+.wp-block-branzel-block-profile .branzel-profile-image {
+  -ms-flex-align: center;
+      align-items: center;
+  background-size: cover;
+  background-position: center; }
+
+.wp-block-branzel-block-profile .branzel-profile-image img {
+  opacity: 0;
+  margin: -9999px; }
+
+.wp-block-branzel-block-profile .branzel-profile-content {
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.wp-block-branzel-block-profile .branzel-profile-content h3 {
+  margin: 0px;
+  padding: 0px; }
+
+.wp-block-branzel-block-profile .branzel-profile-content h5 {
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 8px 0px; }
+
+.wp-block-branzel-block-profile .branzel-profile-content p {
+  line-height: 1.6;
+  margin: 0px;
+  padding: 8px 0px; }
+
+.wp-block-branzel-block-profile .branzel-profile-social {
+  padding-top: 12px; }
+
+.wp-block-branzel-block-profile .branzel-profile-social:empty {
+  display: none; }
+
+.wp-block-branzel-block-profile .branzel-profile-social .social-link {
+  padding: 6px 12px;
+  font-size: 18px;
+  text-decoration: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: none;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
+.wp-block-branzel-block-profile .branzel-profile-social .social-link:first-child {
+  border: none; }
+
+.wp-block-branzel-block-profile {
+  float: left; }
+  .wp-block-branzel-block-profile.bemsatheme {
+    float: none; }
+    .wp-block-branzel-block-profile.bemsatheme .container {
+      max-width: 250px;
+      border-radius: 15px;
+      height: 100%; }
+      .wp-block-branzel-block-profile.bemsatheme .container .branzel-profile-image {
+        min-height: 200px;
+        border-radius: 15px 15px 0 0; }
+      .wp-block-branzel-block-profile.bemsatheme .container .branzel-profile-content h3 {
+        font-size: 1.2em; }
+      .wp-block-branzel-block-profile.bemsatheme .container .branzel-profile-content h5 {
+        font-size: 0.9em; }
+      .wp-block-branzel-block-profile.bemsatheme .container .branzel-profile-content p {
+        text-align: inherit; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * ----------------------------------------------------------------------------
+ * Frontend CSS
+ * ----------------------------------------------------------------------------
+ */
+.wp-block-branzel-embedpdf {
+  max-width: 100%;
+  border: 1px solid black;
+  overflow: auto;
+  zoom: 1; }
+  .wp-block-branzel-embedpdf canvas {
+    display: block; }
